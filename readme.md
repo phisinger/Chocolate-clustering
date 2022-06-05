@@ -7,3 +7,5 @@
 3. Cleanse and prepare the data, [Notebook](src/EDA_and_cleansing.ipynb)
 4. Cluster the data, [Notebook](src/Clustering_and_Interpretation.ipynb)
 5. Interprete the data
+
+Goal build a recommender system for chocolate => if you like this chocolate, you might like this ones as well.
