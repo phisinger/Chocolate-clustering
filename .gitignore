@@ -1,3 +1,4 @@
 secrets/*
 data/response_foods.json
 src/output.txt
+.vscode/*
