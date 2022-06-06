@@ -18,6 +18,8 @@ The project is built upon data from the public API of the U.S. Department of Agr
 Next steps are performing an exploratory data analysis as a foundation for the data cleansing step. And the data cleansing itself, including a wide range of adjustments, e.g. extracting data in lists. The cleansed and fully prepared data is stored again in the database. A cleansed but no-encoded version of the data for visualization or other projects can be found [here as csv](data/cleaned_data.csv).  
 Last part is the clustering itself. Two algorithms, KMeans and DBSCAN were used on different subsets of the dataset based on the first clustering results. For both a comprehensive hyperparamter tuning was implemented in order to get a optimal result.
 
+Side Note: I made a python script that includes all steps requesting and cleaning the data in a straight-forward way [here](src/scripts/).
+
 ## Results
 
 Unfortunately, both clustering algorithms were not able to define meaningful clusters. In summary, there is one big cluster aka. no cluster. For more information, please see the clustering notebook.  
